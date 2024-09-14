@@ -1,0 +1,16 @@
+------------------- USUARIO
+CAMPOS DB:
+    name | lastname | email | password | birth | isAdmin: Boolean | token_confirm_account userActive
+    userIsActiveByAdmin
+
+------------------- RECURSO DE USUARIO
+- Solo el usuario común podrá crear recursos que le provee el Administrador 
+CAMPOS DB:
+    id_user_ref: REF | id_resource_admin | name_resource_admin | inputs_data 
+
+
+------------------- RECURSO DE ADMINISTRADOR
+- Solo usuario con rol Admin podrá crear nuevos recursos para que el usuario común pueda hacer uso.
+CAMPOS DB:
+    id_user_ref: REF | name_resource | name_type_encrypt | fields: {label_input, name_input, type_input}
+

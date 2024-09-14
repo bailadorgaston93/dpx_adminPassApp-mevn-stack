@@ -1,0 +1,406 @@
+ .LAYOUT_APP_SIDE_LEFT_ADMIN {
+     background-color: #041210 !important;
+     padding: 5%;
+ }
+
+ .app_header_content {
+     background-color: rgb(213, 213, 213);
+     display: flex;
+ }
+
+ .app_header_content .welcome {
+     width: 50%;
+     padding: 1%;
+     text-align: center;
+     font-weight: bold;
+ }
+
+ .app_header_content .logout {
+     width: 50%;
+     text-align: right;
+     padding-right: 5%;
+ }
+
+ .LAYOUT_APP_SIDE_LEFT_ADMIN .dash_title_welcome {
+     background: linear-gradient(0deg, rgb(74, 141, 46) 0%, rgb(104, 181, 99) 38%, rgb(74, 141, 46) 100%);
+     padding: 2%;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(13, 29, 6);
+     letter-spacing: 3px;
+     border-radius: 5px;
+     margin-bottom: 10%;
+     margin-top: -10%;
+ }
+
+ .LAYOUT_APP_SIDE_LEFT_ADMIN {
+
+     background-color: #abcaa3 !important;
+     padding: 5%;
+     min-height: 100vh;
+     padding-top: 10%;
+ }
+
+
+ .LAYOUT_APP_SIDE_LEFT_PUBLIC {
+     background: linear-gradient(0deg, rgb(190, 245, 124) 0%, rgb(146, 218, 58) 38%, rgb(110, 156, 52) 100%);
+     padding: 5%;
+ }
+
+ .LAYOUT_APP_SIDE_LEFT_PUBLIC .dash_content_main {
+     background-image: url("../imgs/img_auth.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 5%;
+     min-height: 75vh;
+     margin-top: 4%;
+     background-origin: content-box;
+ }
+
+ .LAYOUT_APP_SIDE_RIGHT .dash_content_main .dash_menu_content {
+     min-height: 55vh;
+     overflow-y: auto;
+     overflow-x: hidden;
+ }
+
+ .dash_menu_content ul {
+     padding: 3%;
+ }
+
+ .dash_menu_content ul a li {
+     background: #003e39;
+     margin-bottom: 5%;
+     padding: 3%;
+     font-weight: 500;
+     color: #eaeaea;
+ }
+
+ .dash_menu_content ul a.router-link-exact-active {
+     text-align: center;
+     pointer-events: none;
+ }
+
+ .dash_menu_content ul a li {
+     border: 1px solid transparent;
+ }
+
+ .dash_menu_content ul a li:hover {
+     background: #00211e;
+     color: #2dc583;
+     border: 1px solid #2dc583;
+ }
+
+ .LAYOUT_APP_SIDE_RIGHT {
+     padding: 3%;
+     padding-right: 5% !important;
+     background-color: #dbe6da;
+ }
+
+ .LAYOUT_APP_SIDE_RIGHT_PUBLIC .dash_content_main {
+     background-color: #efefef;
+     padding: 5%;
+     min-height: 100vh;
+ }
+
+ .table_list_data_resource {
+     overflow: auto;
+     overflow-x: hidden;
+     max-height: 60vh;
+ }
+
+ .content_modal_app {
+     background-color: rgba(2, 9, 21, 0.90) !important;
+ }
+
+
+ .card_modal {
+     background: linear-gradient(54deg, rgba(213, 213, 213, 1) 0%, rgba(241, 242, 241, 1) 44%, rgba(231, 231, 231, 1) 100%);
+     min-height: 50vh;
+ }
+
+ .content_inputs_add_resource {
+     background-color: rgb(230, 230, 230);
+     padding: 2%;
+     -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+ }
+
+ .content_data_loaded {
+     background-color: #0b261e;
+     padding: 3%;
+     overflow-y: hidden;
+     overflow-x: auto;
+     display: flex;
+     -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+ }
+
+ .content_data_loaded .item_data_loaded {
+     padding: 2%;
+     background-color: #005649;
+     min-width: 50%;
+     margin-right: 3%;
+     overflow-x: auto;
+     overflow-y: hidden;
+     color: white;
+     /* filter:grayscale() */
+ }
+
+ .content_data_loaded .item_data_loaded .btn_actions {
+     text-align: right;
+ }
+
+ .content_data_loaded .item_data_loaded .btn_actions button {
+     margin-right: 5%;
+ }
+
+ .content_data_loaded .item_data_loaded .btn_actions button:hover {
+     color: white;
+ }
+
+ .btn_add_mini {
+     background-color: #76ee58;
+     padding: 1%;
+     width: 25%;
+     border: 1px solid black;
+ }
+
+ .btn_add_mini:hover {
+     background-color: #5fc047;
+     color: rgb(110, 231, 124);
+ }
+
+ .btn_add_resource_amin {
+     background: #265951;
+ }
+
+ .btn_add_resource_amin:hover {
+     background: #163631;
+ }
+
+ .btn_cancel_resource_amin {
+     background: #e64341 !important;
+ }
+
+ .btn_cancel_resource_amin:hover {
+     background: #ff6c6a;
+ }
+
+
+ .content_data_loaded .item_data_loaded .btn_actions .btn_edit_mini {
+     padding: 2%;
+     color: rgb(56, 66, 49);
+     background: rgb(125, 194, 121);
+ }
+
+ .content_data_loaded .item_data_loaded .btn_actions .btn_delete_mini {
+     padding: 2%;
+     color: rgb(72, 46, 46);
+     background: rgb(194, 121, 121);
+
+ }
+
+ .p-dialog-mask {
+     background-color: rgba(0, 0, 0, 0.769) !important;
+ }
+
+ .p-dialog {
+     background-color: red !important;
+     color: red;
+ }
+
+ .p-confirm-dialog {
+     background-color: red;
+ }
+
+ .p-dialog-footer button {
+     margin-right: 5%;
+ }
+
+ .p-dialog-footer button:first-child {
+     background-color: rgb(227, 227, 227);
+     padding: 1%;
+     border: 1px solid black;
+     color: black;
+ }
+
+ .p-dialog-footer button:first-child:hover {
+     background-color: rgb(192, 192, 192);
+ }
+
+ .p-dialog-footer button:last-child {
+     background-color: rgb(255, 56, 56);
+     padding: 1%;
+     border: 1px solid black;
+     color: rgb(255, 255, 255);
+ }
+
+ .p-dialog-footer button:last-child:hover {
+     background-color: rgb(220, 50, 50);
+ }
+
+ .content_pass_generate {
+     padding-left: 3%;
+     padding-right: 3%;
+     padding-top: 5%;
+     padding-bottom: 5%;
+     background-color: rgb(216, 216, 216);
+     width: 70%;
+     margin: 0 auto;
+     border: 1px solid rgb(147, 147, 147);
+ }
+
+ .content_pass_generate .title {
+     font-style: italic;
+     font-weight: bold;
+ }
+
+ .content_pass_generate .pass {
+     background-color: rgb(247, 247, 247);
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+     padding: 5%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     letter-spacing: 3px;
+     font-weight: bold;
+     border: 1px solid rgb(182, 182, 182);
+     height: auto;
+     word-wrap: break-word;
+ }
+
+ .btn_content_action_copy_generate {
+     text-align: right;
+ }
+
+ .btn_content_action_copy_generate button {
+     margin-right: 3%;
+     padding: 2%;
+     border: 1px solid black;
+ }
+
+ .btn_content_action_copy_generate button:first-child {
+     background-color: rgb(239, 124, 124);
+ }
+
+ .btn_content_action_copy_generate button:first-child:hover {
+     background-color: rgb(174, 84, 84);
+ }
+
+
+ .btn_content_action_copy_generate button:nth-child(2) {
+     background-color: rgb(185, 239, 124);
+ }
+
+ .btn_content_action_copy_generate button:nth-child(2):hover {
+     background-color: rgb(144, 192, 90);
+ }
+
+
+ .btn_content_action_copy_generate button:last-child {
+     background-color: rgb(240, 250, 94);
+ }
+
+ .btn_content_action_copy_generate button:last-child:hover {
+     background-color: rgb(171, 179, 62);
+ }
+
+
+ .content_checkbox {
+     background-color: rgb(232, 232, 232);
+     text-align: center;
+     color: black;
+     padding: 1%;
+     border: 1px solid black;
+ }
+
+ .content_checkbox:hover {
+     background-color: rgb(214, 208, 153);
+     cursor: pointer;
+ }
+
+
+ .content_arrow_expand_generate_pass {
+     background-color: rgb(255, 211, 67);
+     padding: 2%;
+     text-align: center;
+     margin-bottom: 3%;
+     border: 1px solid black;
+ }
+
+
+ .content_arrow_expand_generate_pass:hover {
+     cursor: pointer;
+     background-color: rgb(224, 177, 25);
+ }
+
+
+ .input_content_data {
+     border-radius: 10px;
+ }
+
+ .input_data {
+     padding: 1% !important;
+     border: 1px solid rgb(20, 78, 34);
+ }
+
+ .btn_show_pass_input_data {
+     background-color: rgb(41, 41, 41);
+     color: rgb(218, 218, 218);
+ }
+
+ .btn_show_pass_input_data:hover {
+     cursor: pointer;
+     background-color: rgb(20, 20, 20);
+ }
+
+ .btn_generate_pass_input_data {
+     background-color: rgb(255, 213, 0);
+     color: rgb(109, 58, 0);
+ }
+
+ .btn_generate_pass_input_data:hover {
+     cursor: pointer;
+     background-color: rgb(190, 158, 0);
+ }
+
+
+ .modal_custom_generate_pass {
+     background-color: rgb(168, 211, 148);
+     padding: 5%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0
+ }
+
+ .modal_custom_generate_pass .content_body {
+     background: rgb(232, 232, 232);
+     height: 80vh;
+     border: 2px solid rgb(31, 54, 11);
+ }
+
+ .modal_custom_generate_pass .content_body .title {
+     padding: 1%;
+     font-size: 1.5em;
+     border-bottom: 3px solid black;
+ }
+
+ .modal_custom_generate_pass .content_body .btn_exit_generate_pass {
+     background-color: rgb(88, 197, 78);
+     text-align: right;
+ }
+
+ .modal_custom_generate_pass .content_body .btn_exit_generate_pass button {
+     background-color: rgb(255, 112, 112);
+     width: 10%;
+     padding: 2%;
+ }
+
+ .modal_custom_generate_pass .content_body .btn_exit_generate_pass button:hover {
+     background-color: rgb(211, 76, 76);
+ }
